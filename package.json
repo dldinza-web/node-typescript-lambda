@@ -1,0 +1,22 @@
+{
+  "name": "typescript-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.116",
+    "serverless-offline": "^12.0.4",
+    "serverless-plugin-typescript": "^2.1.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.347.1",
+    "@aws-sdk/lib-dynamodb": "^3.347.1",
+    "aws-sdk": "^2.1392.0",
+    "lodash": "^4.17.21"
+  }
+}
